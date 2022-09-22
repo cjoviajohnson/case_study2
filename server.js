@@ -9,7 +9,7 @@ const Bookdata = require('./src/model/Bookdata');
 
 const app =express();
 
-const mongoURI ="mongodb+srv://crud:crud@crudapp.u6yr1l0.mongodb.net/?retryWrites=true&w=majority";
+const mongoURI ="mongodb+srv://joviajo:joviajo@casestudy2.elrmjqm.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(mongoURI,{
     useNewUrlParser:true,
